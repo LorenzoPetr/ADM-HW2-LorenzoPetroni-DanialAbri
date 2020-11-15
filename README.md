@@ -12,7 +12,7 @@ To try to overcome this problem, we tried to load a different dataset for each a
 However, even in this case, the solution was not sufficient to allow normal execution of all parts of the code.
 We found an example of this situation in the code in **Exercise 1.3**, where we needed all records with event_type = "view" (the vast majority of total records).
 
-So we decided to go like this: for both the October and November datasets we only uploaded 500,000 records, so the aggregate dataset has one million records.
+So we decided to go like this: for both the October and November datasets we only uploaded 500000 records, so the aggregate dataset has one million records.
 This allowed us to run the code locally without too many problems or slowdowns. 
 However, many of the results shown in the notebook will be strongly influenced by this initial choice.
 
